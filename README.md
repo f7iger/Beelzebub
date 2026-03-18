@@ -23,7 +23,7 @@ MAC Address: 08:00:27:11:FC:62 (PCS Systemtechnik/Oracle VirtualBox virtual
 Lets see the webpage and bruteforce some hide directories
 <img >
 
-### $ gobuster dir -u http://192.168.0.119:80/ -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-big.txt -X /usr/share/wordlists/Offensive-Payloads/File-Extensions-Wordlist.txt -b 404,403
+### $ gobuster dir -u http://$IP:80/ -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-big.txt -X /usr/share/wordlists/Offensive-Payloads/File-Extensions-Wordlist.txt -b 404,403
 
 ```
 /index.html           (Status: 200) [Size: 10918]
